@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import ColorPickerLogic from "../composables/ColorPickerLogic.js"
+import ColorPicker from "../composables/ColorPicker.js"
 export default {
   setup() {
-    const { colors, message, matchColor } = ColorPickerLogic();
+    const { colors, message, matchColor } = ColorPicker();
     return { colors, message, matchColor };
   },
 };
